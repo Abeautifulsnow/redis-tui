@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/mylxsw/redis-tui/api"
-	"github.com/mylxsw/redis-tui/config"
-	"github.com/mylxsw/redis-tui/core"
-	"github.com/mylxsw/redis-tui/tui"
+	"github.com/Abeautifulsnow/redis-tui/api"
+	"github.com/Abeautifulsnow/redis-tui/config"
+	"github.com/Abeautifulsnow/redis-tui/core"
+	"github.com/Abeautifulsnow/redis-tui/tui"
 )
 
 var conf = config.Config{}

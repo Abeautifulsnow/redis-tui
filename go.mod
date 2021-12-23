@@ -1,19 +1,22 @@
-module github.com/mylxsw/redis-tui
+module github.com/Abeautifulsnow/redis-tui
 
-go 1.12
+go 1.17
 
 require (
-	github.com/gdamore/tcell v1.2.0
-	github.com/go-redis/redis v6.15.2+incompatible
-	github.com/mylxsw/go-toolkit v0.0.0-20190408103501-156f308c481f
-	github.com/onsi/ginkgo v1.8.0 // indirect
-	github.com/onsi/gomega v1.5.0 // indirect
-	github.com/rivo/tview v0.0.0-20190721135419-23dc8a0944e4
-	github.com/rivo/uniseg v0.1.0 // indirect
-	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4 // indirect
-	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80 // indirect
-	golang.org/x/sys v0.0.0-20190801041406-cbf593c0f2f3 // indirect
-	golang.org/x/text v0.3.2 // indirect
-	golang.org/x/tools v0.0.0-20190802003818-e9bb7d36c060 // indirect
-	gopkg.in/DATA-DOG/go-sqlmock.v1 v1.3.0 // indirect
+	github.com/go-redis/redis v6.15.9+incompatible
+	github.com/mylxsw/coll v0.0.0-20210423142615-0a2e3d0afc0e
+	github.com/rivo/tview v0.0.0-20211202162923-2a6de950f73b
+)
+
+require (
+	github.com/gdamore/encoding v1.0.0 // indirect
+	github.com/gdamore/tcell/v2 v2.4.1-0.20210905002822-f057f0a857a1 // indirect
+	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
+	github.com/mattn/go-runewidth v0.0.13 // indirect
+	github.com/onsi/ginkgo v1.16.5 // indirect
+	github.com/onsi/gomega v1.17.0 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
+	golang.org/x/sys v0.0.0-20210423082822-04245dca01da // indirect
+	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d // indirect
+	golang.org/x/text v0.3.6 // indirect
 )

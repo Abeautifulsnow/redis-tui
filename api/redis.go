@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mylxsw/redis-tui/config"
-	"github.com/mylxsw/redis-tui/core"
+	"github.com/Abeautifulsnow/redis-tui/config"
+	"github.com/Abeautifulsnow/redis-tui/core"
 
-	"github.com/gdamore/tcell"
+	"github.com/gdamore/tcell/v2"
 	"github.com/go-redis/redis"
 )
 

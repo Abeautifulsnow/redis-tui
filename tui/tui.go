@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gdamore/tcell"
-	"github.com/mylxsw/go-toolkit/collection"
-	"github.com/mylxsw/redis-tui/api"
-	"github.com/mylxsw/redis-tui/config"
-	"github.com/mylxsw/redis-tui/core"
+	"github.com/Abeautifulsnow/redis-tui/api"
+	"github.com/Abeautifulsnow/redis-tui/config"
+	"github.com/Abeautifulsnow/redis-tui/core"
+	"github.com/gdamore/tcell/v2"
+	"github.com/mylxsw/coll"
 	"github.com/rivo/tview"
 )
 
@@ -452,7 +452,7 @@ func (ui *RedisTUI) createCommandPanel() *tview.Flex {
 			))
 		} else {
 			commandTipView.SetTextColor(tcell.ColorBlue).
-				SetText(collection.MustNew(matchedCommands).Reduce(func(carry string, item api.RedisHelp) string {
+				SetText(coll.MustNew(matchedCommands).Reduce(func(carry string, item api.RedisHelp) string {
 					if carry == "" {
 						return item.Command
 					}

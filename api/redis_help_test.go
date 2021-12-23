@@ -1,7 +1,7 @@
 package api_test
 
 import (
-	"github.com/mylxsw/redis-tui/api"
+	"github.com/Abeautifulsnow/redis-tui/api"
 	"testing"
 )
 
